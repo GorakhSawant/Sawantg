@@ -8,7 +8,7 @@ const ProjectCard = ({ title, description, link, imgSrc }) => {
             <div className="p-4">
                 <h3 className="font-bold text-lg">{title}</h3>
                 <p>{description}</p>
-                <a href={link} className="text-blue-500">View Project</a>
+                <a href={link} className="text-blue-500 hover:underline">View Project</a>
             </div>
         </div>
     );
